@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock Paper and Scissors</title>
+  </head>
+  <body>
+    <script src="./script.js"></script>
+    <div class="container">
+      <div class="heading">
+        <h1>Rock Paper Scissors Lizard Spock</h1>
+      </div>
+      
+      <!-- For Team Blue -->
+      <div class="bluePlayer" id="player">
+        <h2>You -
+          <span class="playerScore"></span>
+          <span class="playerChoice" id="choice">- </span>
+        </h2>
+        <!-- Rock -->
+      <i class="far fa-hand-rock-o" id="playerRock" aria-hidden="true"></i>
+  
+      <!-- Paper -->
+      <i class="far fa-hand-paper-o" id="playerPaper" aria-hidden="true"></i>
+  
+      <!-- Scissors -->
+      <i class="far fa-hand-scissors-o" id="playerScissors" aria-hidden="true"></i>
+  
+      <!-- Lizard -->
+      <!-- <i class="fa fa-hand-lizard-o" id="playerLizard" aria-hidden="true"></i> -->
+  
+      <!-- Spock -->
+      <!-- <i class="fa fa-hand-spock-o" id="playerSpock" aria-hidden="true"></i> -->
+      </div>
+      
+      <div class="redPlayer" id="computer">
+        <h2>Computer -
+          <span class="computerScore"> </span>
+          <span class="computerchoice" id="choice">- </span>
+        </h2>
+        <!-- For Team Red -->
+      <!-- Rock -->
+      <i class="fa fa-hand-rock-o" id="computerRock" aria-hidden="true"></i>
+  
+      <!-- Paper -->
+      <i class="fa fa-hand-paper-o" id="computerPaper" aria-hidden="true"></i>
+  
+      <!-- Scissors -->
+      <i class="fa fa-hand-scissors-o" id="computerScissors" aria-hidden="true"></i>
+  
+      <!-- Lizard -->
+      <!-- <i class="fa fa-hand-lizard-o" id="computerLizard" aria-hidden="true"></i> -->
+  
+      <!-- Spock -->
+      <!-- <i class="fa fa-hand-spock-o" id="computerSpock" aria-hidden="true"></i> -->
+      </div>
+
+      <i class="fa fa-refresh" id="refresh" aria-hidden="true"></i>
+      <div class="result-container"></div>
+      <h3 class="result-text" id="resultText">You Won</h3>
+    </div>
+
+    
+  </body>
+</html>
