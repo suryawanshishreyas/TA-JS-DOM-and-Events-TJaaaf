@@ -7,7 +7,70 @@
     <title>Form Validation 👇</title>
   </head>
   <body>
-   
+    <header>
+      <h1>Create Account</h1>
+    </header>
+    <form>
+      <div class="container">
+        <div class="form-control">
+          <label for="text">Username</label>
+          <input type="text"
+          name="username"
+          required
+          placeholder="Username">
+          <small></small>
+        </div>
+          
+        <div class="form-control">
+            <label for="text">Name</label>
+            <input type="text"
+            name="name"
+            required
+            placeholder="Name">
+            <small></small>
+        </div>
+          
+        <div class="form-control">
+            <label for="text">Email</label>
+            <input type="email"
+            name="email"
+            required
+            placeholder="Enter your Email">
+            <small></small>
+        </div>
+          
+        <div class="form-control">
+          <label for="number">Phone Number</label>
+          <input 
+          name="phone"
+          placeholder="Enter Here">
+          <small></small>
+        </div>
+        
+        <div class="form-control">
+        <label for="text">Password</label>
+          <input type="password"
+          name="password"
+          required
+          placeholder="Enter Password">
+          <small></small>
+        </div>
+        
+        <div class="form-control">
+        <label for="text">Confirm Password</label>
+        <input type="password"
+        name="confirmpassword"
+        required
+        placeholder="Confirm Password">
+        <small></small>
+        </div>
+        <div class="form-control">
+          <button type="submit">Submit</button>
+        </div>
+        
+      </div>
+      
+    </form>
     <script src="./script.js"></script>
   </body>
 </html>
