@@ -1,0 +1,78 @@
+/* CSS Reset */
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+/* My Code */
+body{
+  background-color: rgb(251,163,66);
+}
+header{
+  margin-top: 20px;
+  padding-left: 10px;
+  background-color: aqua;
+  width: 500px;
+  height: 60px;
+  margin: 0 auto;
+}
+h1{
+  margin-top: 50px;
+}
+.container{
+  margin: 0 auto;
+  width: 500px;
+}
+.form-control{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  padding: 10px 10px;
+}
+input{
+  border-radius: 8px;
+  height: 35px;
+  background-color: rgba(255, 255, 255, 0.623);
+}
+input::placeholder{
+  padding-left: 5px;
+}
+button{
+  height: 35px;
+  background-color: rgb(236,108,98);
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: large;
+  cursor: pointer;
+}
