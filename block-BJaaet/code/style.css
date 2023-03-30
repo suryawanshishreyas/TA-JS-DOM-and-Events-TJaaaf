@@ -1,0 +1,51 @@
+
+
+/* My Code */
+body{
+	background-color: rgb(251,163,66);
+}
+.container{
+	position: absolute;
+	width: 500px;
+	left: 0;
+	right: 0;
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:rgb(15, 188, 194) ;
+	border-radius: 10px;
+}
+.add,header{
+	text-align: center;
+	font-size: larger;
+	font-weight: bolder;
+}
+input{
+	width: 98%;
+}
+.movies{
+	display: flex;
+	flex-direction: column;
+	font-size: large;
+	margin-bottom: -20px;
+}
+li{
+	list-style-type: none;
+	display: flex;
+	width: 200px;
+	margin-right: 80%;
+	margin-bottom: 20px;
+}
+#formbox{
+	height: 30px;
+	font-size: 20px;
+}
+.box{
+	width: fit-content;
+	margin-right: 10px;
+}
+.btn{
+	align-items: flex-end;
+	margin-left: 300px;
+	color: red;
+}
