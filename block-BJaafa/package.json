@@ -1,7 +1,7 @@
 {
   "name": "altcampus-assignment",
   "version": "1.0.0",
-  "description": "",
+  "meaning": "",
   "main": "",
   "scripts": {
     "test": "jest --passWithNoTests"
